@@ -1,0 +1,29 @@
+.ki
+{
+    border-left: 0ch;
+    border-right: 0ch;
+    border-top: 0ch;
+    border-bottom: 0ch;
+    background-color:mediumturquoise;
+        margin-left: 500px;
+    margin-top: 30px;
+    margin-right:600px;
+    padding-top:100px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    background-image: url(../../assets/bb.jpg);
+    background-size: cover;
+ 
+}
+.hi
+{
+    background-color:khaki;
+    height:700px;
+    width: 100%;
+}
+button
+{
+    background-color: green;
+    border: green;
+
+}

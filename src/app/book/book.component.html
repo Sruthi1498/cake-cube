@@ -1,0 +1,83 @@
+
+
+        <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        .input-container {
+          display: -ms-flexbox; 
+          display: flex;
+          width: 100%;
+          margin-bottom: 15px;
+        }
+        
+        .icon {
+          padding: 10px;
+          background:red;
+          color: white;
+          min-width: 50px;
+          text-align: center;
+        }
+        
+        .input-field {
+          width: 100%;
+          padding: 10px;
+          outline: none;
+        }
+        
+        .input-field:focus {
+          border: 2px solid red;
+        }
+        
+        
+        .btn {
+          background-color: red;
+          color: white;
+          padding: 15px 20px;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        
+        .btn:hover {
+          opacity: 1;
+        }
+        </style>
+        
+        
+        <div id="hi">
+        <form action="/action_page.php" style="max-width:500px;margin:auto">
+          <h2 style="padding-top: 100px;">Online booking</h2>
+          <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" placeholder="Username" name="usrnm">
+          </div>
+        
+         
+          
+          <div class="input-container">
+            <i class="fa fa-adressbook icon"></i>
+            <input class="input-field" type="subject" placeholder="Address" name="psw">
+          </div>
+
+          <div class="input-container">
+                <i class="fa fa-phone icon"></i>
+                <input class="input-field" type="text" placeholder="Phone number" name="psw">
+              </div>
+            
+              <div class="input-container">
+                <i class="fa fa-calendar icon"></i>
+                <input class="input-field" type="datetime" placeholder="Booking Date and Time" name="psw">
+              </div>
+
+              <div class="input-container">
+                    <i class="fa fa-list icon"></i>
+                    <input class="input-field" type="number" placeholder="Number" name="usrnm">
+                  </div>
+        
+         <a routerLink='/book1'> <button type="submit" class="btn">PLACE AN ORDER</button></a>
+        
+        </form>
+        </div>
+        
